@@ -1,0 +1,38 @@
+@import './fonts.css';
+@import './controls.css';
+
+:root {
+  --base-background: #ffffff;
+  --base-color: #000000;
+  --base-dark-background: #2e3442;
+}
+
+:root {
+  --color-background: var(--base-background);
+  --color-text: var(--base-color);
+  --login-color-background: var(--base-dark-background);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--base-dark-background);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  line-height: 24px;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+}

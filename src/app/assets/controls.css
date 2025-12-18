@@ -1,0 +1,32 @@
+:root {
+  --control-border-color: #d7dff1;
+  --caption-color: #2e3442;
+  --default-text-color: #2e3442;
+  --input-background: #fafafa;
+  --caption-background: #fafafa;
+  --input-background-disabled: #d0d4ca;
+  --button-background: #11aecd;
+  --button-shadow-background: rgba(17, 174, 205, 0.4);
+  --button-hover-shadow: #11aecd;
+  --button-color: #ffffff;
+  --checkbox-color: #2e3442;
+  --checkbox-unchecked: #ffffff;
+  --checkbox-checked: #11aecd;
+  --checkbox-icon-border: #d7dff1;
+  --menu-border: #3d4760;
+  --open-menu-button-color: #222a3e;
+  --open-menu-button-background: #3d4760;
+  --menu-item-color: #ffffff;
+  --menu-item-color-hover: #11aecd;
+  --main-background: #f2faff;
+  --table-background: #fafafa;
+  --table-background--odd: #ffffff;
+  --table-color--notification: #fcc129;
+  --table-color--warning: #a449a8;
+  --table-color--error: #cd3333;
+  --select-title-color: #2e3442;
+  --pagination-button-background: #ffffff;
+  --link-caption-color: #2dadcf;
+  --link-caption-background: #ffffff;
+  --enable-user-label: #39ba5d;
+}
